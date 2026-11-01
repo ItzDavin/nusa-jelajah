@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFFAFA;
+}
+.login-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+}
+.gambar {
+    background-image: url(../../images/index/index.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFAFA;
+}
+.gambar h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px; 
+    line-height: 1.4;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    letter-spacing: -2%;
+}
+.form-login {
+    background-color: #fffafa;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.form-login h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    color: #1F2937;
+    margin-bottom: 25px;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    box-sizing: border-box;
+    border: 1px solid #50c878;
+    background-color: transparent;
+}
+.form-login p {
+    font-family: 'Inter', sans-serif;
+    text-align: right;
+    font-size: 11px;
+    color: #07865f;
+}
+.form-login button {
+    background-color: #07865f;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.form-login button:hover {
+    background-color: #A7F3D0;
+    color: #0E0E2C;
+    border: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.atau {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 12px;
+}
+.atau span {
+    background-color: #50c878;
+    height: 1px;
+    flex: 1;
+}
+.sosial {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.sosial button {
+    font-size: 18px;
+    margin: 0;
+}
+.daftar {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 12px;
+}
+.daftar a {
+    color: #07865f;
+}
+.kembali {
+    color: #07865f;
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.kembali:hover {
+    text-decoration: underline;
+}
