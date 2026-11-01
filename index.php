@@ -1,3 +1,10 @@
+<!-- Connect to Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+<!-- Load Inter with all weights (100 to 900) -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,15 +18,15 @@
 
     <div class="header">
         <div class="left">
-            <img src="images/index/logo.png" alt="">
+            <a href="pages/users/login.php"><button id="login">Login</button></a>
         </div>
 
         <div class="right">
             <ul>
-                <li><a href="web/home.php">Home</a></li>
-                <li><a href="web/package.php">Tour Package</a></li>
-                <li><a href="web/about.php">About Us</a></li>
-                <li><a href="web/contact.php">Contact Us</a></li>
+                <li><a href="pages/users/home.php">Home</a></li>
+                <li><a href="pages/users/package.php">Tour Package</a></li>
+                <li><a href="pages/users/about.php">About Us</a></li>
+                <li><a href="pages/users/contact.php">Contact Us</a></li>
             </ul>
         </div>
     </div>
@@ -29,7 +36,7 @@
 
         <p>Let's Tour The World</p>
 
-        <a href="web/home.php">
+        <a href="pages/users/home.php">
             <button class="button">Let's Explore</button>
         </a>
 
