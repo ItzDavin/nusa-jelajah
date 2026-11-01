@@ -18,10 +18,6 @@ body {
     background-color: #50C878;
 }
 
-.left img {
-    height: 40px;
-}
-
 .right ul {
     display: flex;
     list-style: none;
@@ -72,7 +68,6 @@ body {
     color: #FFFAFA;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
-    font-size: 10px;
     letter-spacing: 3%;
 
     height: 55px;

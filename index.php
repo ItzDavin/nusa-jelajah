@@ -1,16 +1,13 @@
-<!-- Connect to Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-<!-- Load Inter with all weights (100 to 900) -->
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
 </head>
 
@@ -23,7 +20,7 @@
 
         <div class="right">
             <ul>
-                <li><a href="pages/users/home.php">Home</a></li>
+                <li><a href="pages/users/home.php" style="color: white;">Home</a></li>
                 <li><a href="pages/users/package.php">Tour Package</a></li>
                 <li><a href="pages/users/about.php">About Us</a></li>
                 <li><a href="pages/users/contact.php">Contact Us</a></li>
@@ -36,7 +33,7 @@
 
         <p>Let's Tour The World</p>
 
-        <a href="pages/users/home.php">
+        <a href="pages/users/login.php">
             <button class="button">Let's Explore</button>
         </a>
 
