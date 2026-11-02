@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #fafbfd;
+    color: #252d3d;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #4cd17a;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #252d3d; /* Diubah menjadi warna hitam */
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: #a3efce;
+    padding: 6px 20px 6px 8px;
+    border-radius: 30px;
+}
+
+.user img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.user span {
+    font-weight: bold;
+    color: #252d3d; /* Diubah menjadi warna hitam */
+    font-size: 15px;
+}
+
+/* BANNER */
+.banner {
+    background-image: url('../../images/home/home.png');
+    background-size: cover;
+    background-position: center;
+    padding: 35px 40px 45px;
+    color: white;
+}
+
+.banner .subtitle {
+    font-size: 14px;
+    margin: 0 0 5px;
+}
+
+.banner h2 {
+    font-size: 28px;
+    font-weight: 800;
+    margin: 0 0 10px;
+}
+
+.banner .desc {
+    font-size: 13px;
+    line-height: 1.4;
+    margin: 0 0 35px;
+}
+
+/* PENCARIAN & KATEGORI (HORIZONTAL) */
+.pencarian-kategori {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    position: absolute;
+    left: 15px;
+    color: #4a5568;
+    font-size: 13px;
+}
+
+.search-box input {
+    width: 260px;
+    padding: 10px 15px 10px 38px;
+    border: none;
+    border-radius: 25px;
+    font-size: 11px;
+    font-weight: bold;
+    outline: none;
+    color: #252d3d;
+}
+
+.search-box input::placeholder {
+    color: #718096;
+    font-weight: 700;
+}
+
+.kategori {
+    display: flex;
+    gap: 12px;
+}
+
+.kategori a {
+    background-color: #ffffff;
+    color: #252d3d;
+    text-decoration: none;
+    padding: 9px 24px;
+    border-radius: 25px;
+    font-size: 11px;
+    font-weight: 800;
+    transition: all 0.2s ease;
+}
+
+.kategori a:hover {
+    background-color: #edf2f7;
+}
+
+/* JUDUL SECTION */
+.judul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px 10px;
+}
+
+.judul h3 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #252d3d;
+    margin: 0;
+}
+
+.judul a {
+    color: #252d3d;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* KARTU DESTINASI */
+.destinasi {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 10px 40px 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 14px 16px;
+}
+
+.card-info h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #252d3d;
+    margin: 0 0 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-info h4 .heart {
+    color: #ff4d4d;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.card-info p {
+    font-size: 11px;
+    color: #718096;
+    margin: 0 0 6px;
+}
+
+.card-info small {
+    color: #ffb400;
+    font-size: 11px;
+    font-weight: bold;
+}
