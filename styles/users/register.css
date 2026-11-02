@@ -59,6 +59,7 @@ input {
     box-sizing: border-box;
     border: 1px solid #50c878;
     background-color: transparent;
+    border-radius: 5px;
 }
 
 .syarat {
@@ -93,6 +94,7 @@ input {
     width: 100%;
     margin-top: 10px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .atau {
