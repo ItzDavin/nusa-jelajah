@@ -47,6 +47,8 @@ body {
 }
 
 .form-register h2 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -2%;
     font-size: 28px;
     color: #252d3d;
     margin-bottom: 25px;
@@ -92,7 +94,9 @@ input {
     padding: 12px;
     width: 100%;
     margin-top: 10px;
-    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3%;
 }
 
 .atau {

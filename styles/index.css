@@ -45,7 +45,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 75px);
+    min-height: 100vh;
     gap: 20px;
     text-align: center;
     background: linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ),  url(../images/index/index.jpg);
