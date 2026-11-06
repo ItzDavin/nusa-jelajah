@@ -13,7 +13,7 @@ body {
     background-color: white;
 }
 .gambar {
-    background-image: url(../../images/index/index.jpg);
+    background-image: url(../../images/login/login.jpg);
     background-size: cover;
     background-position: center;
     display: flex;

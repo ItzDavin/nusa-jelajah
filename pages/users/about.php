@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tentang Kami - Nusa Jelajah</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../styles/users/about.css">
 </head>
 <body>
 
     <div class="wadah-utama">
-        <nav>
-            <button class="tombol-masuk">LOGIN</button>
-            <ul class="tautan-navigasi">
+        <div class="header">
+        <div class="left">
+            <a href="login.php"><button id="login">Login</button></a>
+        </div>
+
+        <div class="right">
+            <ul>
                 <li><a href="../../index.php">Home</a></li>
-                <li><a href="#">Tour Package</a></li>
-                <li><a href="about_us.html">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="package.php">Tour Package</a></li>
+                <li><a href="about.php" style="color: white;">About Us</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
             </ul>
-        </nav>
+        </div>
+    </div>
 
         <div class="konten">
             <div class="sisi-kiri">
