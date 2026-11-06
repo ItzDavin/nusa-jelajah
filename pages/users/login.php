@@ -11,7 +11,7 @@
 
     <div class="login-container">
 
-        <div class="gambar">
+        <div class="pictures">
             <h3>Jelajahi Keindahan<br>
                 Indonesia Bersama<br>
                 Kami
@@ -20,7 +20,7 @@
 
         <div class="form-login">
             
-            <a href="../../index.php" class="kembali">Back to Home</a>
+            <a href="../../index.php" class="back">Back to Home</a>
 
             <h2>Login Back To Your<br>Account</h2>
 
@@ -33,19 +33,19 @@
 
                 <a href="home.php"><button type="button">LOGIN</button></a>
 
-                <div class="atau">
+                <div class="or">
                     <span></span>
                     Or Use
                     <span></span>
                 </div>
 
-                <div class="sosial">
+                <div class="social">
                     <button type="button">f</button>
                     <button type="button">G</button>
                     <button type="button">X</button>
                 </div>
 
-                <div class="daftar">
+                <div class="register">
                    Don't Have An Account? <a href="register.php">Sign Up</a>
                 </div>
             </form>

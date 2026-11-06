@@ -12,7 +12,7 @@ body {
     grid-template-columns: 1fr 1fr;
     background-color: white;
 }
-.gambar {
+.pictures {
     background-image: url(../../images/login/login.jpg);
     background-size: cover;
     background-position: center;
@@ -22,7 +22,7 @@ body {
     text-align: center;
     color: #FFFAFA;
 }
-.gambar h3 {
+.pictures h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 32px; 
     line-height: 1.4;
@@ -76,7 +76,7 @@ input {
     font-family: 'Inter', sans-serif;
 }
 
-.atau {
+.or {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -84,35 +84,35 @@ input {
     margin: 20px 0;
     font-size: 12px;
 }
-.atau span {
+.or span {
     background-color: #50c878;
     height: 1px;
     flex: 1;
 }
-.sosial {
+.social {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
-.sosial button {
+.social button {
     font-size: 18px;
     margin: 0;
 }
-.daftar {
+.register {
     text-align: center;
     margin-top: 25px;
     font-size: 12px;
 }
-.daftar a {
+.register a {
     color: #07865f;
 }
-.kembali {
+.back {
     color: #07865f;
     text-decoration: none;
     font-size: 12px;
     margin-bottom: 20px;
     display: inline-block;
 }
-.kembali:hover {
+.back:hover {
     text-decoration: underline;
 }
