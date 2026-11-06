@@ -31,7 +31,7 @@
 
                 <p>Forgot Password</p>
 
-                <button type="button">LOGIN</button>
+                <a href="home.php"><button type="button">LOGIN</button></a>
 
                 <div class="atau">
                     <span></span>

@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <div class="wadah-utama">
+    <div class="container">
         <div class="header">
         <div class="left">
             <a href="login.php"><button id="login">Login</button></a>
@@ -28,40 +28,40 @@
         </div>
     </div>
 
-        <div class="konten">
-            <div class="sisi-kiri">
+        <div class="content">
+            <div class="right">
                 <h1>Tentang Kami</h1>
-                <div class="garis-pembatas"></div>
+                <div class="lineBorder"></div>
                 <p>Nusa Jelajah adalah platform yang mengajak masyarakat untuk mengenal lebih dekat keindahan, keunikan, dan kekayaan lokal Indonesia. Kami ingin memperkenalkan beragam destinasi wisata, budaya, kuliner khas, serta potensi daerah yang menjadi kebanggaan bangsa.</p>
                 <p>Melalui Nusa Jelajah, kami berharap semakin banyak orang tertarik untuk menjelajahi keindahan negeri sendiri, mendukung usaha lokal, dan melestarikan warisan budaya Indonesia. Jelajah keindahan lokal, kenali kekayaan budaya, dan cintai Indonesia!</p>
             </div>
 
-            <div class="sisi-kanan">
-                <div class="kartu-hijau">
+            <div class="left">
+                <div class="green-box">
                     <h2>Visi Kami</h2>
                     <p>Menjadi platform yang memperkenalkan keindahan wisata, budaya, dan potensi lokal Indonesia kepada masyarakat luas.</p>
                 </div>
-                <div class="kartu-hijau">
+                <div class="green-box">
                     <h2>Misi Kami</h2>
                     <p>Mengajak masyarakat menjelajahi Indonesia, melestarikan, budaya, serta mendukung produk lokal dan usaha lokal.</p>
                 </div>
             </div>
         </div>
 
-        <div class="grid-bawah">
-            <div class="kartu-fitur">
+        <div class="grid-bellow">
+            <div class="cards">
                 <h3>Mudah Digunakan</h3>
                 <p>Jelajahi destinasi lokal dengan mudah dan praktis.</p>
             </div>
-            <div class="kartu-fitur">
+            <div class="cards">
                 <h3>Informasi Terpercaya</h3>
                 <p>Dapatkan informasi wisata yang jelas dan bermanfaat.</p>
             </div>
-            <div class="kartu-fitur">
+            <div class="cards">
                 <h3>Untuk Semua</h3>
                 <p>Temukan inspirasi wisata untuk semua kalangan.</p>
             </div>
-            <div class="kartu-fitur">
+            <div class="cards">
                 <h3>Dukungan Wisata Lokal</h3>
                 <p>Dukung wisata daerah dan lestarikan budaya Indonesia.</p>
             </div>
