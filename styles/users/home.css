@@ -9,7 +9,6 @@ body {
     color: #252d3d;
 }
 
-/* NAVBAR */
 .navbar {
     background-color: #4cd17a;
     height: 70px;
@@ -33,7 +32,7 @@ body {
 
 .menu a {
     text-decoration: none;
-    color: #252d3d; /* Diubah menjadi warna hitam */
+    color: #252d3d;
     font-size: 16px;
     font-weight: 700;
 }
@@ -59,7 +58,6 @@ body {
     font-size: 15px;
 }
 
-/* BANNER */
 .banner {
     background-image: url('../../images/home/home.png');
     background-size: cover;
@@ -85,8 +83,7 @@ body {
     margin: 0 0 35px;
 }
 
-/* PENCARIAN & KATEGORI (HORIZONTAL) */
-.pencarian-kategori {
+.search-and-category {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -122,12 +119,12 @@ body {
     font-weight: 700;
 }
 
-.kategori {
+.category {
     display: flex;
     gap: 12px;
 }
 
-.kategori a {
+.category a {
     background-color: #ffffff;
     color: #252d3d;
     text-decoration: none;
@@ -138,34 +135,32 @@ body {
     transition: all 0.2s ease;
 }
 
-.kategori a:hover {
+.category a:hover {
     background-color: #edf2f7;
 }
 
-/* JUDUL SECTION */
-.judul {
+.title {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 25px 40px 10px;
 }
 
-.judul h3 {
+.title h3 {
     font-size: 18px;
     font-weight: 800;
     color: #252d3d;
     margin: 0;
 }
 
-.judul a {
+.title a {
     color: #252d3d;
     text-decoration: none;
     font-size: 12px;
     font-weight: 600;
 }
 
-/* KARTU DESTINASI */
-.destinasi {
+.destination {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;

@@ -31,8 +31,6 @@
         </div>
     </div>
 
-
-    <!-- BANNER -->
     <div class="banner">
         <p class="subtitle">Jelajahi keindahan indonesia</p>
         <h2>Temukan Destinasi Impianmu</h2>
@@ -41,14 +39,13 @@
             temukan berbagai destinasi wisata terbaik di seluruh indonesia
         </p>
 
-        <!-- Form Pencarian & Kategori (Satu Baris) -->
-        <div class="pencarian-kategori">
+        <div class="search-and-category">
             <div class="search-box">
                 <span class="search-icon">&#128269;</span>
                 <input type="text" placeholder="CARI DESTINASI">
             </div>
 
-            <div class="kategori">
+            <div class="category">
                 <a href="home.php" class="active">SEMUA</a>
                 <a href="home.php">PANTAI</a>
                 <a href="home.php">GUNUNG</a>
@@ -59,14 +56,12 @@
         </div>
     </div>
 
-
-    <!-- DESTINASI POPULER -->
-    <div class="judul">
+    <div class="title">
         <h3>Destinasi Populer</h3>
         <a href="home.php">Lihat Semua</a>
     </div>
 
-    <div class="destinasi">
+    <div class="destination">
         <div class="card">
             <img src="../../images/home/gunung.png" alt="Gunung Bromo">
             <div class="card-info">
@@ -95,13 +90,11 @@
         </div>
     </div>
 
-
-    <!-- DESTINASI SEKITAR -->
-    <div class="judul">
+    <div class="title">
         <h3>Destinasi Sekitar</h3>
     </div>
 
-    <div class="destinasi">
+    <div class="destination">
         <div class="card">
             <img src="../../images/home/putri.png" alt="Putri Island">
             <div class="card-info">
@@ -130,13 +123,11 @@
         </div>
     </div>
 
-
-    <!-- REKOMENDASI -->
-    <div class="judul">
+    <div class="title">
         <h3>Rekomendasi</h3>
     </div>
 
-    <div class="destinasi">
+    <div class="destination">
         <div class="card">
             <img src="../../images/home/komodo.png" alt="Komodo National Park">
             <div class="card-info">
