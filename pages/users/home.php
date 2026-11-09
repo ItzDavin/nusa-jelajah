@@ -41,7 +41,9 @@
 
         <div class="search-and-category">
             <div class="search-box">
-                <span class="search-icon">&#128269;</span>
+                <span class="search-icon">
+                    🔍
+                </span>
                 <input type="text" placeholder="CARI DESTINASI">
             </div>
 
