@@ -12,7 +12,7 @@
 
     <div class="register-container">
 
-        <div class="gambar">
+        <div class="pictures">
             <h3>
                 Selamat Datang!<br>
                 Silahkan buat akun<br>
@@ -25,7 +25,7 @@
 
         <div class="form-register">
 
-            <a href="../../index.php" class="kembali">Back to Home</a>
+            <a href="../../index.php" class="back">Back to Home</a>
 
             <h2>Register your account</h2>
 
@@ -35,20 +35,20 @@
 
             <input type="password" placeholder="Password">
 
-            <div class="syarat">
+            <div class="agreement">
                 <input type="checkbox">
                 <span>I Agree All the Statements in Terms of service</span>
             </div>
 
             <button>SIGN UP</button>
 
-            <div class="atau">
+            <div class="or">
                 <span></span>
                 Or Register With
                 <span></span>
             </div>
 
-            <div class="sosial">
+            <div class="social">
                 <button>f</button>
                 <button>G</button>
                 <button>X</button>

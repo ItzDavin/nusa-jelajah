@@ -17,7 +17,7 @@ body {
     background-color: white;
 }
 
-.gambar {
+.pictures {
     background-image: url(../../images/register/register.png);
     background-size: cover;
     background-position: center;
@@ -29,7 +29,7 @@ body {
     height: 100%;
 }
 
-.gambar h3 {
+.pictures h3 {
     font-size: 32px;
     font-family: 'Poppins', sans-serif;
     line-height: 1.4;
@@ -63,26 +63,26 @@ input {
     background-color: transparent;
 }
 
-.syarat {
+.agreement {
     display: flex;
     align-items: center;
     gap: 8px;
     margin-bottom: 12px;
 }
 
-.syarat input {
+.agreement input {
     width: 15px;
     height: 15px;
     margin: 0;
     flex-shrink: 0;
 }
 
-.syarat span {
+.agreement span {
     font-size: 11px;
     color: #777;
 }
 
-.syarat a {
+.agreement a {
     color: #07865f;
     text-decoration: none;
 }
@@ -99,7 +99,7 @@ input {
     letter-spacing: 3%;
 }
 
-.atau {
+.or {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -114,18 +114,18 @@ input {
     flex: 1;
 }
 
-.sosial {
+.social {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
 
-.sosial button {
+.social button {
     font-size: 18px;
     margin: 0;
 }
 
-.kembali {
+.back {
     color: #07865f;
     text-decoration: none;
     font-size: 12px;
@@ -133,6 +133,6 @@ input {
     display: inline-block;
 }
 
-.kembali:hover {
+.back:hover {
     text-decoration: underline;
 }
