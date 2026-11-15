@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fafbfd;
+    color: #252d3d;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #50C878;
+}
+
+.header .right ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.header .right ul li a {
+    text-decoration: none;
+    color: #1F2937;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.header .right ul li a:hover,
+.header .right ul li a.active {
+    color: #FFFAFA;
+}
+
+#login {
+    width: 140px;
+    height: 45px;
+    background-color: #269141;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#login:hover {
+    background-color: #A7F3D0;
+    color: #0E0E2C;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px 10px;
+}
+
+.title h3 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #252d3d;
+    margin: 0;
+}
+
+.title a {
+    color: #252d3d;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.destination {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px 40px 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.card-info {
+    padding: 14px 16px;
+    flex: 1;
+}
+
+.card-info h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #252d3d;
+    margin: 0 0 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-info .destination-name {
+    font-size: 11px;
+    color: #718096;
+    margin: 0 0 6px;
+}
+
+.card-info .card-list {
+    margin: -5px 0 6px -20px;
+}
+
+.card-info .card-list li p {
+    font-size: 11px;
+    color: #718096;
+    margin: 0 0 6px;
+}
+
+.card-info .price {
+    font-size: 14px;
+    font-weight: 700;
+    color: #252d3d;
+    margin: 10px 0 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #272E25;
+}
+
+.logo-footer img {
+    width: 520px;
+    height: 185px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.social img {
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.left-text {
+    margin-left: 50px;
+    color: white;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.middle a {
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-right {
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.footer-right p {
+    color: white;
+}
+
+.search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    position: absolute;
+    left: 15px;
+    color: #4a5568;
+    font-size: 13px;
+}
+
+.search-box input {
+    width: 260px;
+    padding: 10px 15px 10px 38px;
+    border: none;
+    border-radius: 25px;
+    font-size: 11px;
+    font-weight: bold;
+    outline: none;
+    color: #252d3d;
+}
+
+.search-box input::placeholder {
+    color: #718096;
+    font-weight: 700;
+}
