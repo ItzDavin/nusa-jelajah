@@ -68,7 +68,12 @@
         <h2>REVIEWS</h2>
         <div class="review-box">
             <p>" Layanan aplikasi ini sangat bagus, karena destinasinya bervariasi, seperti wisata alam, pantai, dan sebagainya. "</p>
-            <p class="reviewer-name">Dwi Putri Prameswari</p>
+
+            <div class="reviewer-name">
+                <span class="garis"></span>
+                <span>Evin Fadillah Pratama</span>
+                <span class="garis"></span>
+            </div>
         </div>
     </div>
 
@@ -97,7 +102,7 @@
             <div style="text-align: center;">
                 <h2>MULAI RENCANAKAN DI SINI!</h2>
                 <br>
-                <a href="pages/users/package.php"><button class="green-btn">Explore</button></a>
+                <a href="pages/users/login.php"><button class="green-btn">Explore</button></a>
             </div>
         </div>
     </div>

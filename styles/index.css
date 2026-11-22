@@ -157,8 +157,17 @@
 }
 
 .reviewer-name {
+    display: flex;
+    align-items: center;
+    gap: 15px;
     margin-top: 15px;
     font-size: 13px;
+}
+
+.reviewer-name .garis {
+    flex: 1;
+    height: 1px;
+    background-color: white;
 }
 
 .green-box {
