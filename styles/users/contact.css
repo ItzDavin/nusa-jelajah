@@ -7,9 +7,15 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #303030;
-    min-height: 100vh;
-    padding: 3px 4px 4px;
+    background-color: white;
+
+    height: 100vh;
+    min-height: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 /* ================= HEADER ================= */
@@ -17,7 +23,6 @@ body {
 .header {
     height: 75px;
     width: 100%;
-
     background-color: #4cc879;
 
     display: flex;
@@ -26,8 +31,6 @@ body {
 
     padding: 0 50px;
 }
-
-/* LOGIN BUTTON */
 
 .left #login {
     width: 140px;
@@ -52,7 +55,6 @@ body {
     display: flex;
     align-items: center;
     gap: 32px;
-
     list-style: none;
 }
 
@@ -81,80 +83,55 @@ body {
 
 .contact-container {
     width: 100%;
-    min-height: 480px;
+
+    flex: 1;
+    min-height: 0;
 
     background-color: white;
 
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 
-    padding: 21px 5% 0;
-    gap: 8%;
+    padding: 20px 7%;
+    gap: 7%;
 }
 
 
-/* CONTACT FORM */
+/* ================= CONTACT FORM ================= */
 
 .contact-form {
-    width: 28%;
-    height: 400px;
+    width: 43%;
+    min-height: 420px;
+
     background-color: #4cc879;
 
-    padding: 28px 26px;
-    border-radius: 6px;
+    padding: 30px;
+    border-radius: 12px;
 
-    margin-left: 100px;
-
+    margin: 0;
 }
 
 .contact-form form {
+    width: 100%;
     height: 100%;
 
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 2.5fr 1fr;
-
-    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
 }
 
-
 /* INPUT ROW */
+
 .input-row {
     display: flex;
     gap: 17px;
-    height: 100%;
+    width: 100%;
 }
 
 .input-row input {
     width: 50%;
     min-width: 0;
-    height: 100%;
-}
-
-
-/* INPUT FIELDS */
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    height: 100%;
-
-    border: none;
-    outline: none;
-
-    background-color: #a5f0cd;
-    border-radius: 12px;
-
-    padding: 8px;
-
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    font-weight: 600;
-
-    color: #263b35;
-}
-
-.contact-form textarea {
-    resize: none;
 }
 
 /* INPUT FIELDS */
@@ -167,25 +144,24 @@ body {
     outline: none;
 
     background-color: #a5f0cd;
-
     border-radius: 12px;
 
-    padding: 8px;
+    padding: 12px 15px;
 
     font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    font-weight: 600;
+    font-size: 13px;
+    font-weight: 500;
 
     color: #263b35;
 }
 
 .contact-form input {
-    height: 28px;
+    height: 43px;
 }
 
 .contact-form textarea {
-    height: 56px;
-    resize: none;
+    height: 110px;
+    resize: vertical;
 }
 
 .contact-form input::placeholder,
@@ -194,48 +170,48 @@ body {
     opacity: 1;
 }
 
-
 /* SEND BUTTON */
 
 .send-button {
-    width: 113px;
-    height: 33px;
+    width: 145px;
+    height: 43px;
 
-    align-self: start;
-
-    background-color: #a5f0cd;
-    color: #263b35;
+    background-color: #218e46;
+    color: white;
 
     border: none;
     border-radius: 12px;
 
     font-family: 'Poppins', sans-serif;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 600;
 
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .send-button:hover {
-    background-color: #8be5b9;
+    background-color: #176d36;
 }
 
 
-/* ================= IMAGE ================= */
+/* ================= CONTACT IMAGE ================= */
 
 .contact-image {
-    width: 45%;
-    margin-right: 40px;
+    width: 50%;
+    margin: 0;
 }
 
 .contact-image img {
     display: block;
-    width: 90%;
-    height: 360px;
-    object-fit: cover;
-    border-radius: 7px;
 
-    
+    width: 100%;
+    height: min(55vh, 440px);
+
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 12px;
 }
 
 
@@ -243,15 +219,16 @@ body {
 
 .footer {
     width: 100%;
+    flex-shrink: 0;
 
     background-color: white;
 
     text-align: center;
-    padding: 15px 10px 32px;
+    padding: 15px 10px 20px;
 }
 
 .footer p {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     color: #263142;
 }
@@ -262,29 +239,38 @@ body {
 @media screen and (max-width: 768px) {
 
     .header {
-        padding: 0 15px;
+        height: auto;
+        min-height: 75px;
+        padding: 15px;
+        flex-wrap: wrap;
+        gap: 15px;
     }
 
     .left #login {
-        width: 75px;
-        height: 35px;
+        width: 85px;
+        height: 38px;
         font-size: 12px;
     }
 
+    .right {
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
     .right ul {
-        gap: 10px;
+        gap: 15px;
+        white-space: nowrap;
     }
 
     .right ul li a {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .contact-container {
         flex-direction: column;
-        align-items: center;
-
-        padding: 25px 5%;
-        gap: 25px;
+        align-items: stretch;
+        padding: 30px 6%;
+        gap: 30px;
     }
 
     .contact-form,
@@ -292,11 +278,21 @@ body {
         width: 100%;
     }
 
+    .contact-form {
+        min-height: auto;
+    }
+
+    .contact-form textarea {
+        height: 120px;
+    }
+
     .contact-image img {
-        height: auto;
+        width: 100%;
+        height: 300px;
     }
 
     .footer p {
         font-size: 12px;
+        line-height: 1.7;
     }
 }
