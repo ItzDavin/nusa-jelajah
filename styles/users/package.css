@@ -10,48 +10,48 @@ body {
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 50px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    background-color: #50C878;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: #50C878;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
 }
 
-.header .right ul {
-    display: flex;
-    list-style: none;
-    gap: 30px;
-    margin: 0;
-    padding: 0;
+.header ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.header .right ul li a {
-    text-decoration: none;
-    color: #1F2937;
-    font-weight: 500;
-    font-size: 20px;
+.header a {
+  color: #1F2937;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
 }
 
-.header .right ul li a:hover,
-.header .right ul li a.active {
-    color: #FFFAFA;
+.header a:hover,
+.header a.active {
+  color: #FFFAFA;
 }
 
 #login {
-    width: 140px;
-    height: 45px;
-    background-color: #269141;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 16px;
+  width: 140px;
+  height: 45px;
+  background: #269141;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 #login:hover {
-    background-color: #A7F3D0;
-    color: #0E0E2C;
+  background: #A7F3D0;
+  color: #0E0E2C;
 }
 
 .title {
