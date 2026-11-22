@@ -7,7 +7,6 @@
     <title>NusaJelajah - Home</title>
 
     <link rel="stylesheet" href="../../styles/users/home.css">
-    <link rel="stylesheet" href="../../styles/users/footer.css">
 </head>
 
 
@@ -47,7 +46,7 @@
             </div>
 
             <div class="category">
-                <a href="home.php">PANTAI</a>
+                <a href="category-pantai.php">PANTAI</a>
                 <a href="home.php">GUNUNG</a>
                 <a href="home.php">DANAU</a>
                 <a href="home.php">BUDAYA</a>
@@ -92,6 +91,7 @@
 
     <div class="title">
         <h3>Destinasi Sekitar</h3>
+        <a href="home.php">Lihat Semua</a>
     </div>
 
     <div class="destination">
@@ -125,6 +125,7 @@
 
     <div class="title">
         <h3>Rekomendasi</h3>
+        <a href="home.php">Lihat Semua</a>
     </div>
 
     <div class="destination">
