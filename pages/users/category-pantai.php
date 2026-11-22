@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NusaJelajah - Home</title>
 
-    <link rel="stylesheet" href="../../styles/users/home.css">
+    <link rel="stylesheet" href="../../styles/users/category-pantai.css">
 </head>
 
 
