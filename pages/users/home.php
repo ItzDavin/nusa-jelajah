@@ -1,3 +1,7 @@
+<?php
+$userName = 'User';
+$activePage = 'home';
+?>
 <!DOCTYPE html>
 <html lang="id">
 
@@ -11,23 +15,7 @@
 
 
     <!-- NAVBAR -->
-    <div class="navbar">
-        <div class="logo">
-            <img src="../../images/home/logo.png" alt="Logo">
-        </div>
-
-        <div class="menu">
-            <a href="home.php">Beranda</a>
-            <a href="home.php">Destinasi</a>
-            <a href="home.php">Kategori</a>
-            <a href="package-main.php">Paket</a>
-        </div>
-
-        <div class="user">
-            <img src="../../images/home/user.png" alt="User">
-            <span>User</span>
-        </div>
-    </div>
+    <?php include '../../components/user-header.php'; ?>
 
     <div class="banner">
         <p class="subtitle">Jelajahi keindahan indonesia</p>
