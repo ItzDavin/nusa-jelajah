@@ -20,7 +20,7 @@
             <a href="home.php">Beranda</a>
             <a href="home.php">Destinasi</a>
             <a href="home.php">Kategori</a>
-            <a href="package.php">Paket</a>
+            <a href="package-main.php">Paket</a>
         </div>
 
         <div class="user">
