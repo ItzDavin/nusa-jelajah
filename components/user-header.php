@@ -62,7 +62,7 @@ $activePage = $activePage ?? '';
     </div>
     <div class="menu">
         <a href="home.php" class="<?= $activePage === 'home' ? 'active' : '' ?>">Beranda</a>
-        <a href="home.php" class="<?= $activePage === 'destinasi' ? 'active' : '' ?>">Destinasi</a>
+        <a href="all.php" class="<?= $activePage === 'destinasi' ? 'active' : '' ?>">Destinasi</a>
         <a href="category-pantai.php" class="<?= $activePage === 'kategori' ? 'active' : '' ?>">Kategori</a>
         <a href="package-main.php" class="<?= $activePage === 'paket' ? 'active' : '' ?>">Paket</a>
     </div>
