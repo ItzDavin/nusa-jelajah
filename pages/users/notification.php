@@ -13,7 +13,7 @@
 
     <div class="profile-container">
         <div class="profile-header">
-            <a href="profile.php" class="back-btn">Back</a>
+            <a href="home.php" class="back-btn">Back</a>
         </div>
 
         <div class="edit-card">
