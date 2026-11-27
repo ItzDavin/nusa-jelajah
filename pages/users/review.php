@@ -10,7 +10,6 @@
 <body>
  
   <!-- Navbar -->
-  <!-- Navbar -->
     <?php
     $activePage = 'destinasi';
     $userName = 'User';
