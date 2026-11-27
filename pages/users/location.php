@@ -10,7 +10,6 @@
 <body>
  
   <!-- Navbar -->
-  <!-- Navbar -->
     <?php
     $activePage = 'destinasi';
     $userName = 'User';
@@ -28,7 +27,7 @@
       <a href="overview.php" class="tab">Overview</a>
       <a href="galery.php" class="tab">Galeri</a>
       <a href="location.php" class="tab active">Lokasi</a>
-      <a href="package.php" class="tab">Paket</a>
+      <a href="package-destination.php" class="tab">Paket</a>
       <a href="review.php" class="tab">Ulasan</a>
       <a href="booking.php" class="tab">Booking</a>
       <a href="plan.php" class="tab">Alat Rencana</a>
