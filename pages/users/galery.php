@@ -25,8 +25,8 @@
   <div class="tabs-wrapper">
     <div class="tabs-container">
       <a href="overview.php" class="tab">Overview</a>
-      <a href="galery.php" class="tab">Galeri</a>
-      <a href="location.php" class="tab active">Lokasi</a>
+      <a href="galery.php" class="tab active">Galeri</a>
+      <a href="location.php" class="tab">Lokasi</a>
       <a href="package-destination.php" class="tab">Paket</a>
       <a href="review.php" class="tab">Ulasan</a>
       <a href="booking.php" class="tab">Booking</a>
