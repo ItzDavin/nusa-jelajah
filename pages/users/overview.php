@@ -24,13 +24,13 @@
   <!-- Sub-Navigation Tabs -->
   <div class="tabs-wrapper">
     <div class="tabs-container">
-      <a href="#" class="tab active">Overview</a>
-      <a href="#" class="tab">Galeri</a>
-      <a href="#" class="tab">Lokasi</a>
-      <a href="#" class="tab">Paket</a>
-      <a href="#" class="tab">Ulasan</a>
-      <a href="#" class="tab">Booking</a>
-      <a href="#" class="tab">Alat Rencana</a>
+      <a href="overview.php" class="tab active">Overview</a>
+      <a href="galery.php" class="tab">Galeri</a>
+      <a href="location.php" class="tab">Lokasi</a>
+      <a href="package.php" class="tab">Paket</a>
+      <a href="review.php" class="tab">Ulasan</a>
+      <a href="booking.php" class="tab">Booking</a>
+      <a href="plan.php" class="tab">Alat Rencana</a>
     </div>
   </div>
  
@@ -50,7 +50,7 @@
         <span class="tag">ALAM</span>
       </div>
  
-      <button class="btn-booking">BOOKING NOW</button>
+      <a href="booking.php"><button class="btn-booking">BOOKING NOW</button></a>
     </div>
  
     <div class="right-column">
