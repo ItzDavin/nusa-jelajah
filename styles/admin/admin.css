@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #5f7a6a;
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background: #6fbf8f;
+  min-height: 100vh;
+  padding: 20px;
+  color: white;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.sidebar a.active {
+  background: #2e7d5b;
+}
+
+.content {
+  flex: 1;
+  padding: 25px;
+}
+
+.card-box {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.top-cards {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.top-card {
+  background: #e8f5ee;
+  padding: 15px;
+  border-radius: 10px;
+  flex: 1;
+  text-align: left;
+}
+
+.top-card b {
+  font-size: 22px;
+  display: block;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.list-item img {
+  width: 70px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.info {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  text-align: left;
+}
+
+.btn {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-green { background: #1a9e6b; }
+.btn-red { background: #e74c3c; }
+.btn-grey { background: #95a5a6; }
+
+.status-active {
+  background: #d4f8e2;
+  color: #1a7a4a;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.status-banned {
+  background: #fde2e2;
+  color: #c0392b;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.btn-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
